@@ -1,2 +1,2 @@
-git branch
-git pull <remote> <branch>
+git branch 
+git pull
