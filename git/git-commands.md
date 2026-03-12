@@ -1,2 +1,2 @@
-git branch 
+git branch
 git pull
