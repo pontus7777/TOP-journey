@@ -1,0 +1,22 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: lightgrey;
+}
+h1 {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: plum;
+}
+a {
+  color: blue;
+}
+img {
+  align-self: center;
+}
+
+div {
+  padding-bottom: 8px;
+  border: 1px solid black;
+}
