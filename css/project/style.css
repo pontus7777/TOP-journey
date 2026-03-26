@@ -9,7 +9,7 @@ body {
 
 .header,
 .footer {
-  background-color: #1f2937;
+  background-color: hsl(215, 28%, 17%);
   align-items: center;
   height: 72px;
 }
@@ -57,10 +57,22 @@ body {
   flex: 1;
 }
 
+.image-placeholder {
+  width: 200px;
+  height: 150px;
+  background-color: #e5e7eb;
+  color: #404c5e;
+  text-align: center;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: #1f2937;
+  /* background-color: #404c5e; */
+  padding: 20px;
+  height: 200px;
 }
 
 .hero .mainText {
@@ -79,9 +91,29 @@ body {
 }
 
 .information {
+  min-height: 500px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
+}
+
+.information-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.information-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 204px;
+}
+.information-container p {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .information h1 {
@@ -93,9 +125,14 @@ body {
 .quote {
   background-color: #e5e7eb;
   /* text color */
+  margin: 20px 0;
+  padding: 150px;
   color: #1f2937;
   font-size: 36px;
   font-weight: 300;
+}
+#author {
+  float: right;
 }
 .ctaBackground {
   background-color: white;
